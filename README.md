@@ -3,11 +3,17 @@
 ## The dataset includes seven columns, each providing specific information about real estate transactions. Here is a detailed overview of the columns:
 
 Transaction Date: The date when the real estate transaction took place.
+
 House Age: The age of the house, measured in years.
+
 Distance to the Nearest MRT Station: The distance from the property to the nearest Mass Rapid Transit (MRT) station, measured in meters.
+
 Number of Convenience Stores: The count of convenience stores in the vicinity of the property.
+
 Latitude: The latitude coordinate of the property’s location.
+
 Longitude: The longitude coordinate of the property’s location.
+
 House Price of Unit Area: The price per unit area of the house.
 
 
@@ -32,13 +38,16 @@ Distance to the Nearest MRT Station vs. House Price: There is a noticeable trend
 
 Number of Convenience Stores vs. House Price: There appears to be a positive relationship between the number of convenience stores and house prices. Properties with more convenience stores nearby tend to have higher prices.
 
-Latitude vs. House Price: Although not a strong linear relationship, there seems to be a pattern where certain latitudes correspond to higher or lower house prices, possibly indicating that specific neighborhoods are more desirable.
+Latitude vs. House Price: Although not a strong linear relationship, there seems to be a pattern where certain latitudes correspond to higher or lower house prices, possibly indicating that specific neighbourhoods are more desirable.
 
 
 ## The correlation matrix provides quantified insights into how each variable is related to the others, especially with respect to the house price:
 
 House Age: This shows a very weak negative correlation with house price (-0.012), implying that age is not a strong predictor of price in this dataset.
+
 Distance to Nearest MRT Station: Has a strong negative correlation with house price (-0.637). It indicates that properties closer to MRT stations tend to have higher prices, which is a significant factor in property valuation.
+
 Number of Convenience Stores: Displays a moderate positive correlation with house price (0.281). More convenience stores in the vicinity seem to positively affect property prices.
+
 Latitude and Longitude: Both show a weak correlation with house prices. Latitude has a slight positive correlation (0.081), while longitude has a slight negative correlation (-0.099).
 
